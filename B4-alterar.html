@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./C4-alterar.css">
+    <title>Alterar</title>
+
+</head>
+<body>
+    
+    <nav>
+    <div class="blocoiconemenu">
+    <div class="blocoiconehome">
+    <a href="./B5-remover.html"><img class="imgiconehome" height="40" width="40"
+    src="https://img.icons8.com/material-sharp/24/FFFFFF/waste.png" alt="">
+    </a></div>
+    <div class="blocoiconehome">
+    <a href="./B3-estoque.html"><img class="imgiconehome" height="40" width="40" 
+    src="https://img.icons8.com/ink/48/FFFFFF/warehouse-1.png" alt="">
+    </a></div>
+    <div class="blocoiconehome">
+    <a href="./B1-home.html"><img class="imgiconehome" height="40" width="40" 
+    src="https://img.icons8.com/fluency-systems-filled/50/FFFFFF/home.png" alt="">
+    </a></div></div>
+    </nav>
+
+    <main>
+    <img src="./src/A1-logoimperial.png" alt="" height="100" width="100">
+    <section class="movel">
+    <h2>Alterar Materiais no Estoque</h2>
+    <div class="blocoformulario">
+    <form action="" id="form">
+    <div class="blocoinput">
+    <p>Produto</p>
+    <input type="text" placeholder="Digite nome do produto" id="nome" required>
+    <img class="imgiconeinput" height="30" width="30" 
+    src="https://img.icons8.com/ios-filled/100/FFFFFF/product.png" alt=""></div>
+    <div class="blocoinput">
+    <p>Quantidade</p>
+    <input type="number" placeholder="Digite a quantidade do produto" id="quantidade" required>
+    <img  class="imgiconeinput" height="30" width="30" 
+    src="https://img.icons8.com/ios-filled/100/FFFFFF/how-many-quest.png" alt="how-many-quest"/>
+    </div>
+    <div class="blocoinput">
+    <p>Valor (R$)</p>
+    <input type="number" placeholder="Digite o valor do produto" id="preco" step="0.02" required>
+    <img class="imgiconeinput" height="30"  width="30" 
+    src="https://img.icons8.com/ios-filled/50/FFFFFF/average-2.png" alt="average-2"/>
+    </div><button class="botaoadicionar" type="submit">Adicionar</button></form>
+    </div>
+    </section>
+    
+    <section class="sessaocadastro">
+    
+    <div class="blocotabela">
+    <h3>Selecione Materiais que deseja alterar:</h3>
+    <table class="tabelainformacoes"id="tabelaEstoque">
+    <thead><tr><th>Produto</th><th>Quantidade</th><th>Valor (R$)</th><th></th></tr></thead> 
+    <tbody>
+    </tbody></table></div>
+
+    </section> 
+    </main>
+    <script src="./D3-pagealterar.js"></script>
+
+</body>
+</html>
